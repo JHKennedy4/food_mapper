@@ -1,5 +1,4 @@
 #FoodMapper
-----
 FoodMapper exists to help researchers document the availability and pricing of food in the United States. Specifically in those markets authorized to accept SNAP.
 
 FoodMapper is built on rails and backed by a PostGIS datastore.
