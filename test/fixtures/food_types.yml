@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  food_category_id: 
+  type: 
+  desired_unit: MyString
+
+two:
+  food_category_id: 
+  type: 
+  desired_unit: MyString
