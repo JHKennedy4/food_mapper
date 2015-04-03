@@ -1,11 +1,17 @@
 Rails.application.routes.draw do
-  get 'stores/show'
+  get 'reports/new'
+
+  get 'reports/edit'
+
+  get 'reports/show'
 
   get 'welcome/index'
 
   get 'stores/search'
 
   get '/stores/:id', to: 'stores#show', as: 'store'
+
+  resources :reports
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

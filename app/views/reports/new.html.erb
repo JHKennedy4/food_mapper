@@ -1,0 +1,17 @@
+<h2>USDA Community Food Security Assessment Toolkit</h2>
+<h2>Food Store Survey Instrument</h2>
+<h5>
+  <%= link_to @store.name, store_path(@store) %>
+</h5>
+<div>
+  <%= @store.address1 %>
+</div>
+<div>
+  <%= @store.address2 %>
+</div>
+<div>
+  <%= @store.city %>, <%= @store.state %> <%= @store.zip_code %>
+</div>
+
+<%= form_for :report, url: reports_path do |f| %>
+<% end %>
