@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
+  get 'stores/show'
+
   get 'welcome/index'
 
   get 'stores/search'
 
+  get '/stores/:id', to: 'stores#show', as: 'store'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

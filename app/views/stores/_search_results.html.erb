@@ -1,6 +1,19 @@
 <ul>
+
 <% @stores.each do |store| %>
-  <li><%= link_to store.name,
-    :action => 'show', :id => store.id  %></li>
+  <li class="store">
+    <div class=store-link">
+    <%= link_to store.name, store %>
+    </div>
+    <div>
+      <%= store.address1 %>
+    </div>
+    <div>
+      <%= store.address2 %>
+    </div>
+    <div>
+      <%= store.city %>, <%= store.state %> <%= store.zip_code %>
+    </div>
+  </li>
 <% end %>
 </ul>
