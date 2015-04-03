@@ -1,0 +1,5 @@
+<%= form_tag({controller: 'stores', action: 'search'}, method: 'get') do %>
+  <%= label_tag :search_field, "Search by Store Name:" %>
+  <%= text_field_tag :q, params[:q], :id => 'search_field' %>
+  <%= submit_tag "Search" %>
+<% end %>

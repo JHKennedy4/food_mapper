@@ -1,0 +1,6 @@
+<ul>
+<% @stores.each do |store| %>
+  <li><%= link_to store.name,
+    :action => 'show', :id => store.id  %></li>
+<% end %>
+</ul>
