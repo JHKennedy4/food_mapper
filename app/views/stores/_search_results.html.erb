@@ -1,9 +1,9 @@
-<ul>
+<ul class="list-unstyled">
 <% @stores.each do |store| %>
   <li class="store">
-    <div class=store-link">
+    <h4 class=store-link">
       <%= link_to store.name, store %>
-    </div>
+    </h4>
     <div>
       <%= store.address1 %>
     </div>

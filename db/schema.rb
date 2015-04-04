@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150401213402) do
+ActiveRecord::Schema.define(version: 20150404075647) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,6 +32,8 @@ ActiveRecord::Schema.define(version: 20150401213402) do
     t.decimal  "quantity"
     t.datetime "created_at",                             null: false
     t.datetime "updated_at",                             null: false
+    t.boolean  "sale"
+    t.boolean  "unavailable"
   end
 
   add_index "food_availabilities", ["actual_unit_id"], name: "index_food_availabilities_on_actual_unit_id", using: :btree
