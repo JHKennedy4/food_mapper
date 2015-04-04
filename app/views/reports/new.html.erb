@@ -1,8 +1,8 @@
-<h2>USDA Community Food Security Assessment Toolkit</h2>
-<h2>Food Store Survey Instrument</h2>
-<h5>
+<h3>USDA Community Food Security Assessment Toolkit</h3>
+<h4>Food Store Survey Instrument</h4>
+<div>
   <%= link_to @store.name, store_path(@store) %>
-</h5>
+</div>
 <div>
   <%= @store.address1 %>
 </div>
@@ -13,5 +13,28 @@
   <%= @store.city %>, <%= @store.state %> <%= @store.zip_code %>
 </div>
 
+<h4>Read the following to the store manager before conducting the store survey:</h4>
+<div>
+  <p>
+    Thank you for allowing me to spend some time in your store collecting information on the availability of selected food items and their prices.
+  </p>
+  <p>
+    The information that we are collecting from a wide variety of stores in the area will help create a profile of food availability and costs in the community.
+  </p>
+</div>
+<h4>To the Data Collector:</h4>
+<div>
+  <p>
+    Please complete the following table by walking through the store and recording the price and weight or volume of the least expensive item for each food listed. The table includes the unit of measure that should be selected for each food. For example potatoes are measured in pounds, eggs are measured by the dozen.
+  </p>
+  <p>
+    It is important that the prices recorded are for the specific food item in the table with no substitutions. If a food item is unavailable on the day that you visit the store but is usually in stock check with the manager for the normal price.
+  </p>
+  <p>
+    If a food is never in stock mark the the box labeled <b>unavailable</b>. If a food is on sale, check the box marked <b>sale</b> next to the price.
+  </p>
+</div>
+
 <%= form_for :report, url: reports_path do |f| %>
+  <%= f.hidden_field :store_id, :value => @store.id %>
 <% end %>
