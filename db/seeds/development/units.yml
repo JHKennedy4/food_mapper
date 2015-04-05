@@ -1,21 +1,31 @@
-Volume[edit]
-
-teaspoon (t or tsp.)
-tablespoon (T, tbl., tbs., or tbsp.)
-fluid ounce (fl oz)
-cup (c)
-pint (p, pt, or fl pt)
-quart (q, qt, or fl qt)
-gallon (g or gal)
-milliliter (mL)
-liter (L)
-deciliter (dL)
-
-
-Mass and Weight[edit]
-
-pound (lb)
-ounce (oz)
-mg (milligram)
-g (gram)
-kg (kilogram)
+records:
+  - sprig_id: 1
+    unit: "teaspoon (t or tsp.)"
+  - sprig_id: 2
+    unit: "tablespoon (T, tbl., tbs., or tbsp.)"
+  - sprig_id: 3
+    unit: "fluid ounce (fl oz)"
+  - sprig_id: 4
+    unit: "cup (c)"
+  - sprig_id: 5
+    unit: "pint (p, pt, or fl pt)"
+  - sprig_id: 6
+    unit: "quart (q, qt, or fl qt)"
+  - sprig_id: 7
+    unit: "gallon (g or gal)"
+  - sprig_id: 8
+    unit: "milliliter (mL)"
+  - sprig_id: 9
+    unit: "liter (L)"
+  - sprig_id: 10
+    unit: "deciliter (dL)"
+  - sprig_id: 11
+    unit: "pound (lb)"
+  - sprig_id: 12
+    unit: "ounce (oz)"
+  - sprig_id: 13
+    unit: "mg (milligram)"
+  - sprig_id: 14
+    unit: "g (gram)"
+  - sprig_id: 15
+    unit: "kg (kilogram)"
