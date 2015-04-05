@@ -11,16 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150404075647) do
+ActiveRecord::Schema.define(version: 20150404222950) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "actual_units", force: :cascade do |t|
-    t.string   "unit"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
   create_table "food_availabilities", force: :cascade do |t|
     t.integer  "report_id"
@@ -47,28 +41,29 @@ ActiveRecord::Schema.define(version: 20150404075647) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "food_types", force: :cascade do |t|
+  create_table "foods", force: :cascade do |t|
     t.integer  "food_category_id"
-    t.string   "type"
+    t.string   "food"
     t.string   "desired_unit"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
   end
 
-  add_index "food_types", ["food_category_id"], name: "index_food_types_on_food_category_id", using: :btree
+  add_index "foods", ["food_category_id"], name: "index_foods_on_food_category_id", using: :btree
 
   create_table "reports", force: :cascade do |t|
     t.integer  "user_id"
     t.integer  "store_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.string   "store_type_id"
   end
 
   add_index "reports", ["store_id"], name: "index_reports_on_store_id", using: :btree
   add_index "reports", ["user_id"], name: "index_reports_on_user_id", using: :btree
 
   create_table "store_types", force: :cascade do |t|
-    t.string   "type"
+    t.string   "store_type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -88,6 +83,12 @@ ActiveRecord::Schema.define(version: 20150404075647) do
     t.datetime "updated_at",                           null: false
   end
 
+  create_table "units", force: :cascade do |t|
+    t.string   "unit"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "users", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
@@ -95,11 +96,11 @@ ActiveRecord::Schema.define(version: 20150404075647) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "food_availabilities", "actual_units"
-  add_foreign_key "food_availabilities", "food_types"
+  add_foreign_key "food_availabilities", "foods", column: "food_type_id"
   add_foreign_key "food_availabilities", "reports"
+  add_foreign_key "food_availabilities", "units", column: "actual_unit_id"
   add_foreign_key "food_availabilities", "users"
-  add_foreign_key "food_types", "food_categories"
+  add_foreign_key "foods", "food_categories"
   add_foreign_key "reports", "stores"
   add_foreign_key "reports", "users"
 end

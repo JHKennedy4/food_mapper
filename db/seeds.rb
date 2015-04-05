@@ -9,4 +9,8 @@
 
 include Sprig::Helpers
 
-sprig [Store]
+sprig [#Store,
+       #StoreType,
+       FoodType,
+       #FoodCategory
+]

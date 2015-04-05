@@ -1,0 +1,15 @@
+records:
+  - sprig_id: 1
+    type: "Supermarket"
+  - sprig_id: 2
+    type: "Large grocery"
+  - sprig_id: 3
+    type: "Small grocery"
+  - sprig_id: 4
+    type: "Convenience"
+  - sprig_id: 5
+    type: "Gas/grocery"
+  - sprig_id: 6
+    type: "Ethnic/specialty"
+  - sprig_id: 7
+    type: "Other"

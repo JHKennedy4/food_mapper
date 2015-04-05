@@ -3,19 +3,34 @@
 <head>
   <title>FoodMapper</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-  <div id="search" class="bg-primary">
-    <div class="container">
-      <%= render :partial => 'stores/search_input' %>
+  <div id="wrapper">
+
+    <div id="search" class="bg-primary">
+      <div class="container">
+        <%= render :partial => 'stores/search_input' %>
+      </div>
     </div>
-  </div>
-  <div class="container">
-    <%= yield %>
+
+
+    <!-- page content -->
+    <div id="content" class="container">
+      <%= yield %>
+    </div>
+    <!-- page content -->
+
+
+    <div id="footer" class="bg-primary">
+      <div class="container">
+        <%= render :partial => 'layouts/footer' %>
+      </div>
+    </div>
+
   </div>
 
 </body>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </html>
