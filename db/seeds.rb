@@ -11,6 +11,7 @@ include Sprig::Helpers
 
 sprig [#Store,
        #StoreType,
-       FoodType,
-       #FoodCategory
+       Food,
+       FoodCategory,
+       Unit
 ]
