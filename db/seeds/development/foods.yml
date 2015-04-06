@@ -1,567 +1,567 @@
 records:
   - sprig_id: 1
     food: "Apples, any variety (bagged or loose)"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # pound
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 1) %> #fresh fruit
+    food_category_id: <%= sprig_record(FoodCategory, 1).id %> #fresh fruit
 
   - sprig_id: 2
     food: "Bananas"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # pound
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 1) %> #fresh fruit
+    food_category_id: <%= sprig_record(FoodCategory, 1).id %> #fresh fruit
 
   - sprig_id: 3
     food: "Grapes (green of red)"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # pound
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 1) %> #fresh fruit
+    food_category_id: <%= sprig_record(FoodCategory, 1).id %> #fresh fruit
 
   - sprig_id: 4
     food: "Melon (cantaloupe, honeydew, or watermelon"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # pound
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 1) %> #fresh fruit
+    food_category_id: <%= sprig_record(FoodCategory, 1).id %> #fresh fruit
 
   - sprig_id: 5
     food: "Oranges, any variety (bagged or loose)"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # pound
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 1) %> #fresh fruit
+    food_category_id: <%= sprig_record(FoodCategory, 1).id %> #fresh fruit
 
   - sprig_id: 6
     food: "Carrots, unpeeled, bagged or loose)"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # pound
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 2) %> #fresh vegetables
+    food_category_id: <%= sprig_record(FoodCategory, 2).id %> #fresh vegetables
     #desired_container: "bag"
 
   - sprig_id: 7
     food: "Celery, bunch"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # pound
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 2) %> #fresh vegetables
+    food_category_id: <%= sprig_record(FoodCategory, 2).id %> #fresh vegetables
 
   - sprig_id: 8
     food: "Green pepper"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # pound
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 2) %> #fresh vegetables
+    food_category_id: <%= sprig_record(FoodCategory, 2).id %> #fresh vegetables
 
   - sprig_id: 9
     food: "Lettuce, leaf (green or red)"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # pound
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 2) %> #fresh vegetables
+    food_category_id: <%= sprig_record(FoodCategory, 2).id %> #fresh vegetables
 
   - sprig_id: 10
     food: "Onions, yellow (bagged or loose)"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # pound
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 2) %> #fresh vegetables
+    food_category_id: <%= sprig_record(FoodCategory, 2).id %> #fresh vegetables
 
   - sprig_id: 11
     food: "Tomatoes (any variety)"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # pound
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 2) %> #fresh vegetables
+    food_category_id: <%= sprig_record(FoodCategory, 2).id %> #fresh vegetables
 
   - sprig_id: 12
     food: "Potatoes, any variety"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # pound
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 5
-    food_category_id: <%= sprig_record(FoodCategory, 2) %> #fresh vegetables
+    food_category_id: <%= sprig_record(FoodCategory, 2).id %> #fresh vegetables
     desired_container: "bag"
 
   - sprig_id: 13
     food: "Oranges, mandarin (juice or light syrup)"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 15
-    food_category_id: <%= sprig_record(FoodCategory, 3) %> #canned fruit
+    food_category_id: <%= sprig_record(FoodCategory, 3).id %> #canned fruit
     desired_container: "can"
 
   - sprig_id: 14
     food: "Peaches, any variety (light syrup)"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 29
-    food_category_id: <%= sprig_record(FoodCategory, 3) %> #canned fruit
+    food_category_id: <%= sprig_record(FoodCategory, 3).id %> #canned fruit
     desired_container: "can"
 
   - sprig_id: 15
     food: "Mushrooms, pieces"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 4
-    food_category_id: <%= sprig_record(FoodCategory, 4) %> #Vegetables, canned
+    food_category_id: <%= sprig_record(FoodCategory, 4).id %> #Vegetables, canned
     desired_container: "can"
 
   - sprig_id: 16
     food: "Spaghetti sauce, any variety"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 26
-    food_category_id: <%= sprig_record(FoodCategory, 4) %> #Vegetables, canned
+    food_category_id: <%= sprig_record(FoodCategory, 4).id %> #Vegetables, canned
     desired_container: "jar"
 
   - sprig_id: 17
     food: "Tomato sauce, any variety"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 8
-    food_category_id: <%= sprig_record(FoodCategory, 4) %> #Vegetables, canned
+    food_category_id: <%= sprig_record(FoodCategory, 4).id %> #Vegetables, canned
     desired_container: "can"
 
   - sprig_id: 18
     food: "Orange juice, concentrate"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 12
     desired_container: "can"
 
   - sprig_id: 19
     food: "Broccoli, chopped"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 16
-    food_category_id: <%= sprig_record(FoodCategory, 5) %> # fruits and vegetables, frozen
+    food_category_id: <%= sprig_record(FoodCategory, 5).id %> # fruits and vegetables, frozen
     desired_container: "bag"
 
   - sprig_id: 20
     food: "Green beans—any variety"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 16
-    food_category_id: <%= sprig_record(FoodCategory, 5) %> # fruits and vegetables, frozen
+    food_category_id: <%= sprig_record(FoodCategory, 5).id %> # fruits and vegetables, frozen
     desired_container: "bag"
 
   - sprig_id: 21
     food: "Green peas—any variety"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 16
-    food_category_id: <%= sprig_record(FoodCategory, 5) %> # fruits and vegetables, frozen
+    food_category_id: <%= sprig_record(FoodCategory, 5).id %> # fruits and vegetables, frozen
     desired_container: "bag"
 
   - sprig_id: 22
     food: "French fries—any variety"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 32
-    food_category_id: <%= sprig_record(FoodCategory, 5) %> # fruits and vegetables, frozen
+    food_category_id: <%= sprig_record(FoodCategory, 5).id %> # fruits and vegetables, frozen
     desired_container: "bag"
 
   - sprig_id: 23
     food: "Bread, white, enriched"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lbs
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lbs
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 6) %> #canned fruit
+    food_category_id: <%= sprig_record(FoodCategory, 6).id %> #canned fruit
     desired_container: "loaf"
 
   - sprig_id: 24
     food: "Bread, whole wheat"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 24
-    food_category_id: <%= sprig_record(FoodCategory, 6) %>
+    food_category_id: <%= sprig_record(FoodCategory, 6).id %>
     desired_container: "loaf"
 
   - sprig_id: 25
     food: "Hamburger buns, enriched"
-    desired_unit: <%= sprig_record(Unit, 16).id %> # package
+    desired_unit_id: <%= sprig_record(Unit, 16).id %> # package
     desired_quantity: 8
-    food_category_id: <%= sprig_record(FoodCategory, 6) %>
+    food_category_id: <%= sprig_record(FoodCategory, 6).id %>
     desired_container: "package of"
 
   - sprig_id: 26
     food: "Rolls, dinner, enriched"
-    desired_unit: <%= sprig_record(Unit, 16).id %> # package
+    desired_unit_id: <%= sprig_record(Unit, 16).id %> # package
     desired_quantity: 12
-    food_category_id: <%= sprig_record(FoodCategory, 6) %>
+    food_category_id: <%= sprig_record(FoodCategory, 6).id %>
     desired_container: "package of"
 
   - sprig_id: 27
     food: "French or Italian Bread, enriched"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lbs
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lbs
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 6) %>
+    food_category_id: <%= sprig_record(FoodCategory, 6).id %>
     desired_container: "loaf"
 
   - sprig_id: 28
     food: "Bagels, plains, enriched"
-    desired_unit: <%= sprig_record(Unit, 16).id %> # package
+    desired_unit_id: <%= sprig_record(Unit, 16).id %> # package
     desired_quantity: 6
-    food_category_id: <%= sprig_record(FoodCategory, 6) %>
+    food_category_id: <%= sprig_record(FoodCategory, 6).id %>
     desired_container: "package of"
 
   - sprig_id: 29
     food: "Bread crumbs, plain"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 10
-    food_category_id: <%= sprig_record(FoodCategory, 6) %>
+    food_category_id: <%= sprig_record(FoodCategory, 6).id %>
     desired_container: "can"
 
   - sprig_id: 30
     food: "Ready-to-eat cereal—corn flakes"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 18
-    food_category_id: <%= sprig_record(FoodCategory, 7) %>
+    food_category_id: <%= sprig_record(FoodCategory, 7).id %>
 
   - sprig_id: 31
     food: "Ready-to-eat cereal—toasted oats"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 20
-    food_category_id: <%= sprig_record(FoodCategory, 7) %>
+    food_category_id: <%= sprig_record(FoodCategory, 7).id %>
 
   - sprig_id: 32
     food: "Flour, white, all-purpose, enriched"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 5
-    food_category_id: <%= sprig_record(FoodCategory, 7) %>
+    food_category_id: <%= sprig_record(FoodCategory, 7).id %>
     desired_container: "bag"
 
   - sprig_id: 33
     food: "MAcaroni, elbow-style, enriched"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 7) %>
+    food_category_id: <%= sprig_record(FoodCategory, 7).id %>
 
   - sprig_id: 34
     food: "Noodles, yolk-free, enriched"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 7) %>
+    food_category_id: <%= sprig_record(FoodCategory, 7).id %>
     desired_container: "bag"
 
   - sprig_id: 35
     food: "Popcorn, microvave, any variety (unpopped)"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 9
-    food_category_id: <%= sprig_record(FoodCategory, 7) %>
+    food_category_id: <%= sprig_record(FoodCategory, 7).id %>
     desired_container: "package"
 
   - sprig_id: 36
     food: "Rice, white, long-grain, enriched"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 5
-    food_category_id: <%= sprig_record(FoodCategory, 7) %>
+    food_category_id: <%= sprig_record(FoodCategory, 7).id %>
     desired_container: "bag"
 
   - sprig_id: 37
     food: "Spaghetti, any variety, enriched"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 7) %>
+    food_category_id: <%= sprig_record(FoodCategory, 7).id %>
     desired_container: "box"
 
   - sprig_id: 38
     food: "Milk, 1% lowfat"
-    desired_unit: <%= sprig_record(Unit, 7).id %> # gal
+    desired_unit_id: <%= sprig_record(Unit, 7).id %> # gal
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 8) %>
+    food_category_id: <%= sprig_record(FoodCategory, 8).id %>
 
   - sprig_id: 39
     food: "Milk, whole"
-    desired_unit: <%= sprig_record(Unit, 7).id %> # gal
+    desired_unit_id: <%= sprig_record(Unit, 7).id %> # gal
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 8) %>
+    food_category_id: <%= sprig_record(FoodCategory, 8).id %>
 
   - sprig_id: 40
     food: "Cheese, cheddar, any variety"
-    desired_unit: <%= sprig_record(Unit, 11).id %>
+    desired_unit_id: <%= sprig_record(Unit, 11).id %>
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 8) %>
+    food_category_id: <%= sprig_record(FoodCategory, 8).id %>
 
   - sprig_id: 41
     food: "Cheese, cottage, any variety"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 16
-    food_category_id: <%= sprig_record(FoodCategory, 8) %>
+    food_category_id: <%= sprig_record(FoodCategory, 8).id %>
     desired_container: "carton"
 
   - sprig_id: 42
     food: "Cheese, mozzarellla, whole"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 15
-    food_category_id: <%= sprig_record(FoodCategory, 8) %>
+    food_category_id: <%= sprig_record(FoodCategory, 8).id %>
     desired_container: "package"
 
   - sprig_id: 43
     food: "Evaporated milk, any variety"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 12
-    food_category_id: <%= sprig_record(FoodCategory, 9) %>
+    food_category_id: <%= sprig_record(FoodCategory, 9).id %>
     desired_container: "can"
 
   - sprig_id: 44
     food: "Beef, ground, lean"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 10) %>
+    food_category_id: <%= sprig_record(FoodCategory, 10).id %>
 
   - sprig_id: 45
     food: "Chicken, thighs"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 10) %>
+    food_category_id: <%= sprig_record(FoodCategory, 10).id %>
 
   - sprig_id: 46
     food: "Turkey, ground"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 10) %>
+    food_category_id: <%= sprig_record(FoodCategory, 10).id %>
 
   - sprig_id: 47
     food: "Pork, ground"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 10) %>
+    food_category_id: <%= sprig_record(FoodCategory, 10).id %>
 
   - sprig_id: 48
     food: "Turkey ham (packaged luncheon meat)"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 10) %>
+    food_category_id: <%= sprig_record(FoodCategory, 10).id %>
 
   - sprig_id: 49
     food: "Eggs, grade A, large"
-    desired_unit: <%= sprig_record(Unit, 17).id %> # dozen
+    desired_unit_id: <%= sprig_record(Unit, 17).id %> # dozen
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 10) %>
+    food_category_id: <%= sprig_record(FoodCategory, 10).id %>
 
   - sprig_id: 50
     food: "Fish, chunck-style, water packaged"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 6
-    food_category_id: <%= sprig_record(FoodCategory, 11) %>
+    food_category_id: <%= sprig_record(FoodCategory, 11).id %>
 
   - sprig_id: 51
     food: "Beans, garbanzo (chick peas), canned"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 15
-    food_category_id: <%= sprig_record(FoodCategory, 11) %>
+    food_category_id: <%= sprig_record(FoodCategory, 11).id %>
     desired_container: "can"
 
   - sprig_id: 52
     food: "Beans, kidney, canned"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 15.5
-    food_category_id: <%= sprig_record(FoodCategory, 11) %>
+    food_category_id: <%= sprig_record(FoodCategory, 11).id %>
     desired_container: "can"
 
   - sprig_id: 53
     food: "Beans, baked, vegetarian"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 16
-    food_category_id: <%= sprig_record(FoodCategory, 11) %>
+    food_category_id: <%= sprig_record(FoodCategory, 11).id %>
 
   - sprig_id: 54
     food: "Margarine, stick"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 12) %> # fats and oils
+    food_category_id: <%= sprig_record(FoodCategory, 12).id %> # fats and oils
     desired_container: "box"
 
   - sprig_id: 55
     food: "Shortening, vegetable"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 3
-    food_category_id: <%= sprig_record(FoodCategory, 12) %>
+    food_category_id: <%= sprig_record(FoodCategory, 12).id %>
     desired_container: "can"
 
   - sprig_id: 56
     food: "Salad dressing, mayonnaise—any type"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 32
-    food_category_id: <%= sprig_record(FoodCategory, 12) %>
+    food_category_id: <%= sprig_record(FoodCategory, 12).id %>
     desired_container: "jar"
 
   - sprig_id: 57
     food: "Vegetable oil, any type"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 42
-    food_category_id: <%= sprig_record(FoodCategory, 12) %>
+    food_category_id: <%= sprig_record(FoodCategory, 12).id %>
     desired_container: "bottle"
 
   - sprig_id: 58
     food: "Sugar, brown (dark or light)"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 13) %> #sugars and sweets
+    food_category_id: <%= sprig_record(FoodCategory, 13).id %> #sugars and sweets
     desired_container: "bag or box"
 
   - sprig_id: 59
     food: "Sugar, powdered"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # lb
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 13) %>
+    food_category_id: <%= sprig_record(FoodCategory, 13).id %>
     desired_container: "bag"
 
   - sprig_id: 60
     food: "Sugar, white, granulated"
-    desired_unit: <%= sprig_record(Unit, 11).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 11).id %> # fluid oz
     desired_quantity: 5
-    food_category_id: <%= sprig_record(FoodCategory, 13) %>
+    food_category_id: <%= sprig_record(FoodCategory, 13).id %>
     desired_container: "bag"
 
   - sprig_id: 61
     food: "Jelly, grape"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 32
-    food_category_id: <%= sprig_record(FoodCategory, 13) %>
+    food_category_id: <%= sprig_record(FoodCategory, 13).id %>
     desired_container: "jar"
 
   - sprig_id: 62
     food: "Molasses, any type"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 12
-    food_category_id: <%= sprig_record(FoodCategory, 13) %>
+    food_category_id: <%= sprig_record(FoodCategory, 13).id %>
     desired_container: "jar"
 
   - sprig_id: 63
     food: "Pancake syrup, any type"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 24
-    food_category_id: <%= sprig_record(FoodCategory, 13) %>
+    food_category_id: <%= sprig_record(FoodCategory, 13).id %>
     desired_container: "jar"
 
   - sprig_id: 64
     food: "Chocolate chips, semi-sweet"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 12
-    food_category_id: <%= sprig_record(FoodCategory, 13) %>
+    food_category_id: <%= sprig_record(FoodCategory, 13).id %>
     desired_container: "package"
 
   - sprig_id: 65
     food: "Fruit drink, refrigerated, any flavor"
-    desired_unit: <%= sprig_record(Unit, 7).id %> # gal
+    desired_unit_id: <%= sprig_record(Unit, 7).id %> # gal
     desired_quantity: 1
-    food_category_id: <%= sprig_record(FoodCategory, 13) %> #canned fruit
+    food_category_id: <%= sprig_record(FoodCategory, 13).id %> #canned fruit
 
   - sprig_id: 66
     food: "Fudgesicles, ice milk"
-    desired_unit: <%= sprig_record(Unit, 16).id %> # package of
+    desired_unit_id: <%= sprig_record(Unit, 16).id %> # package of
     desired_quantity: 12
-    food_category_id: <%= sprig_record(FoodCategory, 13) %>
+    food_category_id: <%= sprig_record(FoodCategory, 13).id %>
 
   - sprig_id: 67
     food: "Baking powder"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 10
-    food_category_id: <%= sprig_record(FoodCategory, 14) %>
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %>
     desired_container: "can"
 
   - sprig_id: 68
     food: "Baking soda"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 16
-    food_category_id: <%= sprig_record(FoodCategory, 14) %>
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %>
     desired_container: "box"
 
   - sprig_id: 69
     food: "Chile powder"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 3.25
-    food_category_id: <%= sprig_record(FoodCategory, 14) %>
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %>
     desired_container: "jar"
 
   - sprig_id: 70
     food: "Cinnamon"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 3
-    food_category_id: <%= sprig_record(FoodCategory, 14) %>
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %>
     desired_container: "jar"
 
   - sprig_id: 71
     food: "Cumin"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # fluid oz
     desired_quantity: 2
-    food_category_id: <%= sprig_record(FoodCategory, 14) %>
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %>
     desired_container: "jar"
 
   - sprig_id: 72
     food: "Onion powder"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # fluid oz
     desired_quantity: 3.5
-    food_category_id: <%= sprig_record(FoodCategory, 14) %>
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %>
     desired_container: "jar"
 
   - sprig_id: 73
     food: "Garlic powder"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 4.25
-    food_category_id: <%= sprig_record(FoodCategory, 14) %>
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %>
     desired_container: "jar"
 
   - sprig_id: 74
     food: "Italian herb seasoning"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 2
-    food_category_id: <%= sprig_record(FoodCategory, 14) %> #canned fruit
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %> #canned fruit
     desired_container: "jar"
 
   - sprig_id: 75
     food: "Oregano"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # oz
     desired_quantity: 0.56
-    food_category_id: <%= sprig_record(FoodCategory, 14) %> #canned fruit
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %> #canned fruit
     desired_container: "jar"
 
   - sprig_id: 76
     food: "Paprika"
-    desired_unit: <%= sprig_record(Unit, 12).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 12).id %> # fluid oz
     desired_quantity: 2.9
-    food_category_id: <%= sprig_record(FoodCategory, 14) %> #canned fruit
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %> #canned fruit
     desired_container: "jar"
 
   - sprig_id: 77
     food: "Black pepper, ground"
-    desired_unit: <%= sprig_record(Unit, 12).id %>
+    desired_unit_id: <%= sprig_record(Unit, 12).id %>
     desired_quantity: 4
-    food_category_id: <%= sprig_record(FoodCategory, 14) %>
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %>
     desired_container: "jar"
 
   - sprig_id: 78
     food: "Salt, any type"
-    desired_unit: <%= sprig_record(Unit, 12).id %>
+    desired_unit_id: <%= sprig_record(Unit, 12).id %>
     desired_quantity: 26
-    food_category_id: <%= sprig_record(FoodCategory, 14) %> #canned fruit
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %> #canned fruit
     desired_container: "carton"
 
   - sprig_id: 79
     food: "Vanilla, any type"
-    desired_unit: <%= sprig_record(Unit, 3).id %>
+    desired_unit_id: <%= sprig_record(Unit, 3).id %>
     desired_quantity: 6
-    food_category_id: <%= sprig_record(FoodCategory, 14) %>
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %>
     desired_container: "jar"
 
   - sprig_id: 80
     food: "Chicken bouillon, reduced-sodium, cubes"
-    desired_unit: <%= sprig_record(Unit, 12).id %>
+    desired_unit_id: <%= sprig_record(Unit, 12).id %>
     desired_quantity: 3.75
-    food_category_id: <%= sprig_record(FoodCategory, 14) %>
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %>
     desired_container: "jar"
 
   - sprig_id: 81
     food: "Catsup, any type"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 28
-    food_category_id: <%= sprig_record(FoodCategory, 14) %> #canned fruit
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %> #canned fruit
     desired_container: "bottle"
 
   - sprig_id: 82
     food: "Soy sauce, reduced-sodium"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 10
-    food_category_id: <%= sprig_record(FoodCategory, 14) %> #canned fruit
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %> #canned fruit
     desired_container: "bottle"
 
   - sprig_id: 83
     food: "Lemon juice, bottled"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 32
-    food_category_id: <%= sprig_record(FoodCategory, 14) %> #canned fruit
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %> #canned fruit
     desired_container: "bottle"
 
   - sprig_id: 84
     food: "Gelatin, powdered, unflavored"
-    desired_unit: <%= sprig_record(Unit, 16).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 16).id %> # fluid oz
     desired_quantity: 4
-    food_category_id: <%= sprig_record(FoodCategory, 14) %> #canned fruit
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %> #canned fruit
 
   - sprig_id: 85
     food: "Chocolate drink mix, powdered"
-    desired_unit: <%= sprig_record(Unit, 3).id %> # fluid oz
+    desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 32
-    food_category_id: <%= sprig_record(FoodCategory, 14) %> #canned fruit
+    food_category_id: <%= sprig_record(FoodCategory, 14).id %> #canned fruit
     desired_container: "can"

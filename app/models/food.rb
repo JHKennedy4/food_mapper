@@ -1,4 +1,4 @@
 class Food < ActiveRecord::Base
-  has_one :food_category
-  has_one :unit
+  belongs_to :food_category
+  belongs_to :unit, :foreign_key => "desired_unit_id"
 end

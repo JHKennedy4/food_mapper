@@ -11,14 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150405053159) do
+ActiveRecord::Schema.define(version: 20150406185047) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "food_availabilities", force: :cascade do |t|
     t.integer  "report_id"
-    t.integer  "user_id"
     t.integer  "food_type_id"
     t.string   "brand"
     t.decimal  "price",          precision: 8, scale: 2
@@ -33,7 +32,6 @@ ActiveRecord::Schema.define(version: 20150405053159) do
   add_index "food_availabilities", ["actual_unit_id"], name: "index_food_availabilities_on_actual_unit_id", using: :btree
   add_index "food_availabilities", ["food_type_id"], name: "index_food_availabilities_on_food_type_id", using: :btree
   add_index "food_availabilities", ["report_id"], name: "index_food_availabilities_on_report_id", using: :btree
-  add_index "food_availabilities", ["user_id"], name: "index_food_availabilities_on_user_id", using: :btree
 
   create_table "food_categories", force: :cascade do |t|
     t.string   "category"
@@ -44,7 +42,7 @@ ActiveRecord::Schema.define(version: 20150405053159) do
   create_table "foods", force: :cascade do |t|
     t.integer  "food_category_id"
     t.string   "food"
-    t.string   "desired_unit"
+    t.string   "desired_unit_id"
     t.datetime "created_at",                                null: false
     t.datetime "updated_at",                                null: false
     t.decimal  "desired_quantity",  precision: 8, scale: 2
@@ -101,7 +99,6 @@ ActiveRecord::Schema.define(version: 20150405053159) do
   add_foreign_key "food_availabilities", "foods", column: "food_type_id"
   add_foreign_key "food_availabilities", "reports"
   add_foreign_key "food_availabilities", "units", column: "actual_unit_id"
-  add_foreign_key "food_availabilities", "users"
   add_foreign_key "foods", "food_categories"
   add_foreign_key "reports", "stores"
   add_foreign_key "reports", "users"
