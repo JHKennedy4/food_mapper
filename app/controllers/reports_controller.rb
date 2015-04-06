@@ -2,7 +2,7 @@ class ReportsController < ApplicationController
   def new
     @store = Store.find params[:store_id]
     @store_types = StoreType.all
-    @foods = FoodType.all
+    @foods = Food.all
     @food_categories = FoodCategory.all
   end
 

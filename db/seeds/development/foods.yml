@@ -204,20 +204,20 @@ records:
     food_category_id: <%= sprig_record(FoodCategory, 7) %>
 
   - sprig_id: 32
-  food: "Flour, white, all-purpose, enriched"
+    food: "Flour, white, all-purpose, enriched"
     desired_unit: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 5
     food_category_id: <%= sprig_record(FoodCategory, 7) %>
     desired_container: "bag"
 
   - sprig_id: 33
-  food: "MAcaroni, elbow-style, enriched"
+    food: "MAcaroni, elbow-style, enriched"
     desired_unit: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
     food_category_id: <%= sprig_record(FoodCategory, 7) %>
 
   - sprig_id: 34
-  food: "Noodles, yolk-free, enriched"
+    food: "Noodles, yolk-free, enriched"
     desired_unit: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
     food_category_id: <%= sprig_record(FoodCategory, 7) %>
@@ -231,7 +231,7 @@ records:
     desired_container: "package"
 
   - sprig_id: 36
-  food: "Rice, white, long-grain, enriched"
+    food: "Rice, white, long-grain, enriched"
     desired_unit: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 5
     food_category_id: <%= sprig_record(FoodCategory, 7) %>
@@ -526,12 +526,11 @@ records:
     desired_container: "jar"
 
   - sprig_id: 80
-  food: "Chicken bouillon, reduced-sodium, cubes"
+    food: "Chicken bouillon, reduced-sodium, cubes"
     desired_unit: <%= sprig_record(Unit, 12).id %>
     desired_quantity: 3.75
     food_category_id: <%= sprig_record(FoodCategory, 14) %>
     desired_container: "jar"
-
 
   - sprig_id: 81
     food: "Catsup, any type"
