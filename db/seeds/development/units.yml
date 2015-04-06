@@ -45,7 +45,7 @@ records:
     unit: "kg (kilogram)"
 
   - sprig_id: 16
-    unit: "package"
+    unit: "box/package of"
 
   - sprig_id: 17
     unit: "dozen"
