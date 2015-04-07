@@ -11,14 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150406185047) do
+ActiveRecord::Schema.define(version: 20150407015916) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "food_availabilities", force: :cascade do |t|
     t.integer  "report_id"
-    t.integer  "food_type_id"
+    t.integer  "food_id"
     t.string   "brand"
     t.decimal  "price",          precision: 8, scale: 2
     t.integer  "actual_unit_id"
@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 20150406185047) do
   end
 
   add_index "food_availabilities", ["actual_unit_id"], name: "index_food_availabilities_on_actual_unit_id", using: :btree
-  add_index "food_availabilities", ["food_type_id"], name: "index_food_availabilities_on_food_type_id", using: :btree
+  add_index "food_availabilities", ["food_id"], name: "index_food_availabilities_on_food_id", using: :btree
   add_index "food_availabilities", ["report_id"], name: "index_food_availabilities_on_report_id", using: :btree
 
   create_table "food_categories", force: :cascade do |t|
@@ -96,7 +96,7 @@ ActiveRecord::Schema.define(version: 20150406185047) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "food_availabilities", "foods", column: "food_type_id"
+  add_foreign_key "food_availabilities", "foods"
   add_foreign_key "food_availabilities", "reports"
   add_foreign_key "food_availabilities", "units", column: "actual_unit_id"
   add_foreign_key "foods", "food_categories"

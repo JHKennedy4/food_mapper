@@ -112,6 +112,7 @@ records:
     food: "Orange juice, concentrate"
     desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 12
+    food_category_id: <%= sprig_record(FoodCategory, 5).id %> #Vegetables, canned
     desired_container: "can"
 
   - sprig_id: 19
