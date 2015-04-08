@@ -5,4 +5,6 @@ class Report < ActiveRecord::Base
 
   has_many :food_availabilities
   accepts_nested_attributes_for :food_availabilities
+
+  validates :store_type_id, :presence => true
 end
