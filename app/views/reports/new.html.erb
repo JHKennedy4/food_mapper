@@ -79,17 +79,20 @@
     <%= ff.hidden_field :food_id, :value => ff.object.food_id %>
 
     <div class="">
-      <%= ff.label :unavailable %>
       <%= ff.check_box :unavailable  %>
+      <%= ff.label :unavailable %>
     </div>
 
     <div class="form-group">
       <%= ff.label :price, "Lowest Price" %>
+      <div class="input-group">
+      <div class="input-group-addon">$</div>
       <%= ff.text_field :price, class: "form-control input-lg" %>
+      </div>
     </div>
     <div class="">
-      <%= ff.label :sale %>
       <%= ff.check_box :sale %>
+      <%= ff.label :sale %>
     </div>
 
     <div class="form-group">
