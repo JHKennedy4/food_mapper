@@ -2,3 +2,15 @@
 <h2>
   <%= link_to "Create New Report", new_report_path(store_id: @store.id) %>
 </h2>
+<% if @store.reports.count > 0 %>
+<h4>Previously Submitted:</h4>
+<% else %>
+  <h4>Be the first to submit a report for this store</h4>
+<% end %>
+<ul>
+  <% @store.reports.each do |report| %>
+    <li>
+      <%= link_to report.created_at, report_path(report) %>
+    </li>
+  <% end %>
+</ul>

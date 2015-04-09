@@ -1,2 +1,67 @@
-<h1>Reports#show</h1>
-<p>Find me in app/views/reports/show.html.erb</p>
+<div class="center">
+<h1>Food Availability Report</h1>
+<div class="highlight">
+  <h4>
+    <%= link_to @report.store.name, store_path(@report.store)%>
+  </h4>
+  <div>
+    <%= @report.store.address1 %>
+  </div>
+  <div>
+    <%= @report.store.address2 %>
+  </div>
+  <div>
+    <%= @report.store.city %>, <%= @report.store.state %> <%= @report.store.zip_code %>
+  </div>
+</div>
+</div>
+
+<div>Submitted: <%= @report.created_at %></div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Food Type</th>
+      <th>Cost</th>
+      <th>per Quantity</th>
+      <th>Unit</th>
+      <th>Sale?</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  <% category = nil %>
+
+  <% @report.food_availabilities.each do |avail| %>
+
+    <% if (category == nil || category.id != avail.food.food_category_id ) %>
+
+      <% category = FoodCategory.find(avail.food.food_category_id) %>
+
+      <tr><td colspan='5'><b><%= category.category %></b></td></tr>
+
+    <% end %>
+
+    <tr>
+      <td>
+        <%= avail.food.food %>
+      </td>
+      <% if avail.unavailable %>
+        <td colspan='4'><b>Unavailable</b></td>
+      <% else %>
+      <td>
+        <%= avail.price %>
+      </td>
+      <td>
+        <%= avail.quantity %>
+      </td>
+      <td>
+        <%= avail.unit.unit %>
+      </td>
+      <td>
+        <%= avail.sale %>
+      </td>
+      <% end %>
+    </tr>
+  <% end %>
+  </tbody>
+</table>

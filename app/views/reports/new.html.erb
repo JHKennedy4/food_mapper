@@ -78,7 +78,7 @@
 
     <%= ff.hidden_field :food_id, :value => ff.object.food_id %>
 
-    <div class="">
+    <div class="form-group">
       <%= ff.check_box :unavailable  %>
       <%= ff.label :unavailable %>
     </div>
@@ -90,7 +90,7 @@
       <%= ff.text_field :price, class: "form-control input-lg" %>
       </div>
     </div>
-    <div class="">
+    <div class="form-group">
       <%= ff.check_box :sale %>
       <%= ff.label :sale %>
     </div>
@@ -107,5 +107,5 @@
   <% end %>
 
 
-  <%= f.submit :submit, class: "form-control" %>
+  <%= f.submit :Submit, class: "form-control btn-primary btn-lg input-lg" %>
 <% end %>
