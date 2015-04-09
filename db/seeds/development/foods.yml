@@ -12,7 +12,7 @@ records:
     food_category_id: <%= sprig_record(FoodCategory, 1).id %> #fresh fruit
 
   - sprig_id: 3
-    food: "Grapes (green of red)"
+    food: "Grapes (green or red)"
     desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 1
     food_category_id: <%= sprig_record(FoodCategory, 1).id %> #fresh fruit
@@ -30,7 +30,7 @@ records:
     food_category_id: <%= sprig_record(FoodCategory, 1).id %> #fresh fruit
 
   - sprig_id: 6
-    food: "Carrots, unpeeled, bagged or loose)"
+    food: "Carrots, unpeeled, (bagged or loose)"
     desired_unit_id: <%= sprig_record(Unit, 11).id %> # pound
     desired_quantity: 1
     food_category_id: <%= sprig_record(FoodCategory, 2).id %> #fresh vegetables
@@ -212,7 +212,7 @@ records:
     desired_container: "bag"
 
   - sprig_id: 33
-    food: "MAcaroni, elbow-style, enriched"
+    food: "Macaroni, elbow-style, enriched"
     desired_unit_id: <%= sprig_record(Unit, 11).id %> # lb
     desired_quantity: 1
     food_category_id: <%= sprig_record(FoodCategory, 7).id %>
@@ -321,7 +321,7 @@ records:
     food_category_id: <%= sprig_record(FoodCategory, 10).id %>
 
   - sprig_id: 50
-    food: "Fish, chunck-style, water packaged"
+    food: "Fish, chunk-style, water packaged"
     desired_unit_id: <%= sprig_record(Unit, 3).id %> # fluid oz
     desired_quantity: 6
     food_category_id: <%= sprig_record(FoodCategory, 11).id %>
