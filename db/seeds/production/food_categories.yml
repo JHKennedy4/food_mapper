@@ -1,0 +1,29 @@
+records:
+  - sprig_id: 1
+    category: "Fruit—fresh"
+  - sprig_id: 2
+    category: "Vegetables—fresh"
+  - sprig_id: 3
+    category: "Fruit—canned"
+  - sprig_id: 4
+    category: "Vegetables—canned"
+  - sprig_id: 5
+    category: "Fruits and Vegetables—frozen"
+  - sprig_id: 6
+    category: "Breads, Cereals, and Other Grain Products—fresh"
+  - sprig_id: 7
+    category: "Breads, Cereals, and Other Grain Products—dry"
+  - sprig_id: 8
+    category: "Dairy Products—fresh"
+  - sprig_id: 9
+    category: "Dairy Products—canned"
+  - sprig_id: 10
+    category: "Meat ad Meat Alternates—fresh"
+  - sprig_id: 11
+    category: "Meat ad Meat Alternates—frozen and canned"
+  - sprig_id: 12
+    category: "Fats and Oils"
+  - sprig_id: 13
+    category: "Sugars and Sweets"
+  - sprig_id: 14
+    category: "Other Food Items—optional"
